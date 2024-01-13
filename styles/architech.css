@@ -116,8 +116,10 @@ nav li a{
     .banner-title{
         font-size: 2rem;
     }
-    .nav-title{
+    .section-title{
         font-size: 1.4rem;
+        font-weight:700px ;
+        color: #131313;
     }
     .teams-img-container{
         grid-template-columns: 1fr;
