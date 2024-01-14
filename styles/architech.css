@@ -74,9 +74,12 @@ nav li a{
   
 
    /* main style  */
-   main{
-    max-width: 1440px ;
-    margin: 70px  auto ;
+  main{
+    /* max-width: 992px; */
+    max-width:1440px;
+    margin: 70px  auto ; 
+   
+    
    }
    /* teams style */
    .teams-container{
@@ -181,6 +184,55 @@ nav li a{
    .sponsors-img-container img{
     width:165px;
    }
+      /* design footer section */
+      .upper-footer{  
+        display: flex;
+        justify-content: space-between;
+        background-color: #000000;
+        color:#FFF;
+        padding:20px ;
+        height: 200px;
+        align-items: center;
+
+      }
+      .upper-footer>div{
+        width:24%;
+      }
+      .upper-footer>div>div>.fa-brands{
+        font-size: 30px ;
+        margin: 5px;
+      }
+      .news-input{
+    display:block;
+    width:78%;
+    height:50px;
+    border:0;
+    outline: 0;
+      }
+      .news-submit{
+    display:block;
+    width:80%;
+    height:50px;
+    border:0;
+    outline: 0;
+    background-color:#FF900E ;
+    margin-top: 10px ;
+      }
+      .lower-footer{
+        display: flex;
+        background-color: #424242;
+        height:60px;
+        justify-content: space-between;
+        align-items: center;
+        color: #FFF;
+        
+
+      }
+      .lower-footer a{
+        text-decoration: none;
+        color: #FFF;
+      }
+
    
        /* responsive media queries  */
    @media screen and (max-width:576px) {
